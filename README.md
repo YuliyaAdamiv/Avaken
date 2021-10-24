@@ -1,10 +1,10 @@
 # Avaken
 
 > This project build at the basic structure of HTML in web design. You can see the solutions in working with blocks, responsive design, crossbrowser compatible. 
-> Live demo [_here_](https://www.example.com). 
+> Live demo [_here_](https://yuliyazakharchuk.github.io/Avaken/). 
 
 ## Table of Contents
-___
+
 - [Avaken](#avaken)
   - [Table of Contents](#table-of-contents)
   - [General Information](#general-information)
@@ -17,12 +17,12 @@ ___
 
 
 ## General Information
-___
+
 - The project consists of index.html, main.scss, images and javascript file.
 - The purpose of your project was show work with grid and flex system.
 
 ## Technologies Used
-___
+
 
 - HTML
 - SCSS
@@ -31,13 +31,13 @@ ___
 
 
 ## Screenshots
-___
+
 
 ![Example screenshot](./img/scren.png)
 
 
 ## Setup
-___
+
 
 To install the project, please, download it or clone and open project.
 
@@ -54,7 +54,7 @@ Next step you would open project in Visual Studio Code or another redactor code.
 Proceed to describe how to install / setup one's local environment / get started with the project.
 
 ## Usage
-___
+
 
 You can find realization of the change color of the header used jQuery.
 
@@ -72,14 +72,14 @@ $(window).on("scroll", function() {
 This project has sticky header, [JS Slider](https://swiperjs.com/), used BEM key concepts, used SCSS.
 Actual time I had spent on this task was........ 
 ## Project Status
-___
+
 
 Project is: _complete_. 
 
 
 
 ## Contact
-___
+
 
 Created by [@Yuliya_Zakharchuk](https://github.com/YuliyaZakharchuk).
 
