@@ -219,20 +219,34 @@ li {
 
 .swiper-button-prev,
 .swiper-button-next {
-    top: 680px;
-    width: 50px;
-    height: 50px;
+    top: -50px;
+    width: 70px;
+    height: 70px;
     background-color: #F8F8F8;
     border: 2px solid #252525;
     color: #F8F8F8;
+    opacity: 0;
 }
 
 .swiper-button-next {
     right: 0;
+    z-index: 10;
 }
 
 .swiper-button-prev {
-    left: 502px;
+    left: 349px;
+    z-index: 10;
+}
+
+.swiper-buttons {
+    position: relative;
+}
+
+.swiper-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .services-top__img,
