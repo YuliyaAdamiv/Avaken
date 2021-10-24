@@ -39,11 +39,14 @@
     <div class="content">
         <div class="container">
             <section class="title">
-                <div class="swiper">
+                <div class="swiper column">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img/photo.png"></div>
-                        <div class="swiper-slide"><img src="img/photo.png"></div>
-                        <div class="swiper-slide"><img src="img/photo.png"></div>
+                        <div class="swiper-slide"><img srcset="/img/photo_320.png 320w, /img/photo_320.png 480w" sizes="(max-width: 320px) 280px,
+                            (max-width: 480px) 440px" src="img/photo.png" alt="office"></div>
+                        <div class="swiper-slide"><img srcset="/img/photo_320.png 320w, /img/photo_320.png 480w" sizes="(max-width: 320px) 280px,
+                                (max-width: 480px) 440px" src="img/photo.png" alt="office"></div>
+                        <div class="swiper-slide"><img srcset="/img/photo_320.png 320w, /img/photo_320.png 480w" sizes="(max-width: 320px) 280px,
+                                    (max-width: 480px) 440px" src="img/photo.png" alt="office"></div>
 
                     </div>
                     <div class="swiper-buttons">
@@ -53,9 +56,8 @@
                     </div>
 
                 </div>
-                <div>
+                <div class="column">
                     <h1 class="title-name">Let’s build something great!</h1>
-
                     <button class="title-button">LEARN MORE   <i class="material-icons  arrow">
                     arrow_forward
                     </i></button>

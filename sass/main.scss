@@ -203,10 +203,14 @@ li {
 }
 
 .title {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+}
+
+.column {
+    flex: 50%;
 }
 
 .title-button {
@@ -460,6 +464,22 @@ input {
     .form-field-wrapper.flex>div {
         margin-left: 0;
     }
+    .column {
+        margin-right: 10px;
+        flex: 30%;
+    }
+    .title-name {
+        margin-top: 150px;
+        font-size: 40px;
+        line-height: 30px;
+        letter-spacing: -0.015em;
+    }
+    .swiper {
+        width: 50%;
+    }
+    .swiper-button-prev {
+        margin-left: -309px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -484,15 +504,27 @@ input {
     .services-card {
         margin-top: 20px;
     }
-    .title {
-        font-size: 50px;
-        line-height: 120%;
-    }
     .about-us-form__foto {
         width: 100%;
     }
     .form-field-wrapper.flex>div {
         margin-left: 0;
+    }
+    .column {
+        margin-right: 10px;
+        flex: 40%;
+    }
+    .title-name {
+        margin-top: 200px;
+        font-size: 50px;
+        line-height: 38px;
+        letter-spacing: -0.015em;
+    }
+    .swiper {
+        width: 60%;
+    }
+    .swiper-button-prev {
+        margin-left: -219px;
     }
 }
 
@@ -505,10 +537,6 @@ input {
     }
     .container {
         margin: 0 50px;
-    }
-    .title {
-        font-size: 70px;
-        line-height: 120%;
     }
     .services-cards,
     .about-us-info,
@@ -524,6 +552,21 @@ input {
     }
     .form-field-wrapper.flex>div {
         margin-left: 0;
+    }
+    .column {
+        margin-right: 20px;
+        flex: 45%;
+    }
+    .title-name {
+        font-size: 70px;
+        line-height: 58px;
+        letter-spacing: -0.015em;
+    }
+    .swiper {
+        width: 70%;
+    }
+    .swiper-button-prev {
+        left: 169px;
     }
 }
 
@@ -542,5 +585,20 @@ input {
     }
     .about-us-form__foto {
         width: 100%;
+    }
+    .column {
+        margin-right: 30px;
+        flex: 47%;
+    }
+    .title-name {
+        font-size: 80px;
+        line-height: 78px;
+        letter-spacing: -0.015em;
+    }
+    .swiper {
+        width: 80%;
+    }
+    .swiper-button-prev {
+        left: 309px;
     }
 }
