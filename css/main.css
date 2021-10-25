@@ -510,4 +510,7 @@ input {
 
   .column {
     margin-right: 30px;
-    flex: 4; } }
+    flex: 4; }
+
+  .swiper-button-prev {
+    left: 409px; } }
