@@ -47,7 +47,7 @@ Live demo [_here_](https://yuliyazakharchuk.github.io/Avaken/).
 
 - [Install npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - Install SCSS: `npm install -g sass`
-- If you use the Homebrew package manager for Mac OS X or Linux, you can install Dart Sass by running      `brew install sass/sass/sass`
+- If you use the Homebrew package manager for Mac OS X or Linux, you can install Dart Sass by running         `brew install sass/sass/sass`
 - You can also watch individual files or directories with the --watch flag. `sass --watch input.scss output.css`
 - You can watch and output to directories by using folder paths as your input and output, and separating them with a colon. In this example:`sass --watch app/sass:public/stylesheets`
 - Open [Visual Studio Code](https://code.visualstudio.com/) or another code editor
