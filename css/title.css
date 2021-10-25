@@ -1,0 +1,54 @@
+.swiper {
+  margin-top: 158px;
+  z-index: 0; }
+
+.title-name {
+  font-size: 90px;
+  line-height: 98px;
+  letter-spacing: -0.015em; }
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.column {
+  flex: 50%; }
+
+.title-button {
+  padding: 15px 24px;
+  border: none;
+  margin-top: 60px;
+  display: table-cell;
+  vertical-align: middle;
+  cursor: pointer; }
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: -50px;
+  width: 70px;
+  height: 70px;
+  background-color: #F8F8F8;
+  border: 2px solid #252525;
+  color: #F8F8F8;
+  opacity: 0; }
+
+.swiper-button-next {
+  right: 0;
+  z-index: 10; }
+
+.swiper-button-prev {
+  left: 349px;
+  z-index: 10; }
+
+.swiper-buttons {
+  position: relative; }
+
+.swiper-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1; }
+
+/*# sourceMappingURL=title.css.map */

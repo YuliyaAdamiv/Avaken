@@ -1,7 +1,7 @@
 # Avaken
 
-> This project build at the basic structure of HTML in web design. You can see the solutions in working with blocks, responsive design, crossbrowser compatible. 
-> Live demo [_here_](https://yuliyazakharchuk.github.io/Avaken/). 
+This project build at the basic structure of HTML in web design. You can see the solutions in working with blocks, responsive design, crossbrowser compatible. 
+Live demo [_here_](https://yuliyazakharchuk.github.io/Avaken/). 
 
 ## Table of Contents
 
@@ -11,8 +11,9 @@
   - [Technologies Used](#technologies-used)
   - [Screenshots](#screenshots)
   - [Setup](#setup)
-  - [Usage](#usage)
-  - [Project Status](#project-status)
+    - [To open](#to-open)
+    - [To edit](#to-edit)
+  - [Notes](#notes)
   - [Contact](#contact)
 
 
@@ -23,10 +24,9 @@
 
 ## Technologies Used
 
-
 - HTML
 - SCSS
-- JAVASCRIPT
+- JavaScript
 - jQuery
 
 
@@ -38,25 +38,24 @@
 
 ## Setup
 
+### To open
 
-To install the project, please, download it or clone and open project.
+- Download/clone from the Github
+- Open `index.html` file
 
-Then you can use it.
+### To edit
 
-If you want edit project you would next steps:
-```
-npm install -g sass
-```
-Information about Install Sass  [_here_](https://sass-lang.com/).
+- [Install npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- Install SCSS: `npm install -g sass`
+- Open Visual Studio Code or another code editor
+- Open file of your project in Workspace
+- Edit files
 
-Next step you would open project in Visual Studio Code or another redactor code.
+## Notes
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-## Usage
-
-
-You can find realization of the change color of the header used jQuery.
+1. Actual time I had spent on this task was 10 hours. 
+2. This project has sticky header, [JS Slider](https://swiperjs.com/), used BEM key concepts, used SCSS.
+3. You can find realization of the change color of the header used jQuery.
 
 ```Js
 $(window).on("scroll", function() {
@@ -69,18 +68,7 @@ $(window).on("scroll", function() {
     }
 });
 ```
-This project has sticky header, [JS Slider](https://swiperjs.com/), used BEM key concepts, used SCSS.
-Actual time I had spent on this task was........ 
-## Project Status
-
-
-Project is: _complete_. 
-
-
 
 ## Contact
 
-
 Created by [@Yuliya_Zakharchuk](https://github.com/YuliyaZakharchuk).
-
-

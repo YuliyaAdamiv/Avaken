@@ -40,9 +40,13 @@ menuItems.forEach(
 $(window).on("scroll", function() {
     if ($(window).scrollTop() > 20) {
         $(".header").addClass("active");
+        $('.menu-icon').addClass("active");
+        $('.close-icon').addClass("active");
         $(".logo").addClass("logo-active");
     } else {
         $(".header").removeClass("active");
+        $('.menu-icon').removeClass("active");
+        $('.close-icon').removeClass("active");
         $(".logo").removeClass("logo-active");
     }
 });

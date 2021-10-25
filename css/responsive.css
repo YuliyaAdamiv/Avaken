@@ -1,0 +1,163 @@
+@media (min-width: 0px) and (max-width: 575px) {
+  .hamburger,
+  .form-field-wrapper.flex {
+    display: block; }
+
+  .nav {
+    display: none; }
+
+  .logo {
+    margin-left: 10px; }
+
+  .title {
+    font-size: 30px;
+    line-height: 120%; }
+
+  .container {
+    margin: 0 10px; }
+
+  .services-cards,
+  .about-us-info,
+  .services-name,
+  .about-us-form {
+    grid-template-columns: 1fr; }
+
+  .about-us-form__foto {
+    width: 100%; }
+
+  .form-field-wrapper.flex > div {
+    margin-left: 0; }
+
+  .column {
+    margin-right: 10px;
+    flex: 30%; }
+
+  .title-name {
+    margin-top: 150px;
+    font-size: 40px;
+    line-height: 30px; }
+
+  .swiper-button-prev {
+    margin-left: -309px; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  .form-field-wrapper.flex {
+    display: block; }
+
+  li {
+    margin-right: 10px; }
+
+  .logo {
+    margin-left: 35px; }
+
+  .container {
+    margin: 0 30px; }
+
+  .services-cards,
+  .about-us-info,
+  .services-name,
+  .about-us-form {
+    grid-template-columns: 1fr; }
+
+  .services-card {
+    margin-top: 20px; }
+
+  .about-us-form__foto {
+    width: 100%; }
+
+  .form-field-wrapper.flex > div {
+    margin-left: 0; }
+
+  .column {
+    margin-right: 10px;
+    flex: 40%; }
+
+  .title-name {
+    margin-top: 200px;
+    font-size: 50px;
+    line-height: 38px; }
+
+  .swiper-button-prev {
+    margin-left: -219px; } }
+@media (min-width: 768px) and (max-width: 999px) {
+  .form-field-wrapper.flex {
+    display: block; }
+
+  li {
+    margin-right: 30px; }
+
+  .container {
+    margin: 0 50px; }
+
+  .services-cards,
+  .about-us-info,
+  .services-name,
+  .about-us-form {
+    grid-template-columns: 1fr; }
+
+  .services-card {
+    margin-top: 20px; }
+
+  .about-us-form__foto {
+    width: 100%; }
+
+  .form-field-wrapper.flex > div {
+    margin-left: 0; }
+
+  .column {
+    margin-right: 20px;
+    flex: 45%; }
+
+  .title-name {
+    margin-top: 180px;
+    font-size: 70px;
+    line-height: 58px; }
+
+  .swiper-button-prev {
+    left: 169px; } }
+@media (min-width: 1000px) and (max-width: 1249px) {
+  .form-field-wrapper.flex {
+    display: block; }
+
+  .container {
+    margin: 0 50px; }
+
+  .services-cards,
+  .about-us-info,
+  .services-name,
+  .about-us-form {
+    grid-template-columns: 1fr; }
+
+  .about-us-form__foto {
+    width: 100%; }
+
+  .column {
+    margin-right: 30px;
+    flex: 47%; }
+
+  .title-name {
+    margin-top: 100px;
+    font-size: 80px;
+    line-height: 78px; }
+
+  .swiper-button-prev {
+    left: 309px; }
+
+  .about-us-form__foto {
+    width: 100%; } }
+@media (min-width: 1250px) and (max-width: 1450px) {
+  .title-name {
+    margin-top: 100px;
+    font-size: 80px;
+    line-height: 78px; }
+
+  .column {
+    margin-right: 60px;
+    flex: 50%; }
+
+  .swiper-button-prev {
+    left: 409px; } }
+@media (min-width: 1451px) and (max-width: 2000px) {
+  .about-us-form__foto {
+    width: 100%; } }
+
+/*# sourceMappingURL=responsive.css.map */
