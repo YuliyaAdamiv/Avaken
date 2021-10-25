@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/');
 @import url('https://fonts.gstatic.com');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import "header.scss",
+"title.scss",
+"services.scss",
+"about_us_info.scss",
+"responsive.scss";
 $primary-color:#252525;
 $white-color:#FFFFFF;
 $font-main: Poppins,
@@ -49,6 +54,10 @@ input {
     background: $primary-color;
 }
 
+.nav-link {
+    cursor: pointer;
+}
+
 .search-form,
 .header,
 .title-button,
@@ -84,4 +93,9 @@ input {
 .plus:hover,
 .title-button {
     background: #7637DD;
+}
+
+.active {
+    color: $primary-color;
+    background-color: $white-color;
 }

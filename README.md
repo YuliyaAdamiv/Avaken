@@ -49,7 +49,7 @@ Live demo [_here_](https://yuliyazakharchuk.github.io/Avaken/).
 - Install SCSS: `npm install -g sass`
 - Open [Visual Studio Code](https://code.visualstudio.com/) or another code editor
 - Open file of your project in Workspace
-- Edit files
+- Edit files main.scss or anoter files
 
 ## Notes
 

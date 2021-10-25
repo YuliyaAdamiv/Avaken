@@ -8,6 +8,7 @@ $white-color:#FFFFFF;
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+    background-color: transparent;
 }
 
 .hamburger,
@@ -67,13 +68,8 @@ li {
 
 .menu-icon,
 .close-icon {
-    color: #FFFFFF;
-    background: #252525;
-}
-
-.active {
-    color: $primary-color;
-    background: $white-color;
+    color: $white-color;
+    background: $primary-color;
 }
 
 .close-icon {
