@@ -47,7 +47,7 @@ Live demo [_here_](https://yuliyazakharchuk.github.io/Avaken/).
 
 - [Install npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - Install SCSS: `npm install -g sass`
-- Open Visual Studio Code or another code editor
+- Open [Visual Studio Code](https://code.visualstudio.com/) or another code editor
 - Open file of your project in Workspace
 - Edit files
 
