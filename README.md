@@ -54,8 +54,8 @@ Live demo [_here_](https://yuliyazakharchuk.github.io/Avaken/).
 - Open file of your project in Workspace
 - Edit files main.scss or anoter files. Also you can create new files.scss.
 - You can use the Sass migrator to automatically update your stylesheets to use math.div() and list.slash().
-  `$ npm install -g sass-migrator`
-  `$ sass-migrator division **/*.scss`
+- `$ npm install -g sass-migrator`
+- `$ sass-migrator division **/*.scss`
 
 ## Notes
 
