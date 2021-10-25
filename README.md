@@ -19,7 +19,7 @@ Live demo [_here_](https://yuliyazakharchuk.github.io/Avaken/).
 
 ## General Information
 
-- The project consists of index.html, main.scss, images and javascript file.
+- The project consists of index.html, scss files, images and javascript file.
 - The purpose of your project was show work with grid and flex system.
 
 ## Technologies Used
