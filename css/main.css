@@ -174,7 +174,9 @@ input { background: #3D3D3D; border: none; border-bottom: 2px solid #7637DD; }
   .column { margin-right: 60px; -webkit-box-flex: 50%; -ms-flex: 50%; flex: 50%; }
   .swiper-button-prev { left: 390px; } }
 @media (min-width: 1451px) and (max-width: 1600px) { .about-us-form__foto { width: 100%; } }
-@media (min-width: 1600px) and (max-width: 3500px) { .about-us-form__foto { width: 100%; } }
+@media (min-width: 1600px) and (max-width: 3500px) { .about-us-form__foto { width: 100%; }
+  .column { margin-right: 60px; -webkit-box-flex: 50%; -ms-flex: 50%; flex: 50%; }
+  .swiper-button-prev { left: 390px; } }
 * { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body { font-family: Poppins, sans-serif; font-style: normal; font-weight: 400; }
