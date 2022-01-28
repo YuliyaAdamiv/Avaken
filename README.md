@@ -78,4 +78,4 @@ $(window).on("scroll", function() {
 
 ## Contact
 
-Created by [@Yuliya_Zakharchuk](https://github.com/YuliyaZakharchuk).
+Created by [@Yuliya_Adamiv](https://github.com/YuliyaAdamiv).
