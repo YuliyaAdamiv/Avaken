@@ -1,7 +1,7 @@
 # Avaken
 
 This project build at the basic structure of HTML in web design. You can see the solutions in working with blocks, responsive design, crossbrowser compatible. 
-Live demo [_here_](https://yuliyazakharchuk.github.io/Avaken/). 
+Live demo [_here_](https://yuliyaadamiv.github.io/Avaken/). 
 
 ## Table of Contents
 

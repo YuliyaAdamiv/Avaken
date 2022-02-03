@@ -284,7 +284,8 @@ label {
 form {
   margin: 0 auto; }
 
-input {
+input,
+textarea {
   background: #3D3D3D;
   border: none;
   border-bottom: 2px solid #7637DD;
@@ -344,7 +345,10 @@ input {
     line-height: 30px; }
 
   .swiper-button-prev {
-    margin-left: -309px; } }
+    margin-left: -309px; }
+
+  .search-form {
+    margin-bottom: 20px; } }
 @media (min-width: 576px) and (max-width: 767px) {
   .form-field-wrapper.flex {
     display: block; }
@@ -383,7 +387,10 @@ input {
     line-height: 38px; }
 
   .swiper-button-prev {
-    margin-left: -219px; } }
+    margin-left: -219px; }
+
+  .search-form {
+    margin-bottom: 20px; } }
 @media (min-width: 768px) and (max-width: 999px) {
   .form-field-wrapper.flex {
     display: block; }
@@ -419,10 +426,14 @@ input {
     line-height: 58px; }
 
   .swiper-button-prev {
-    left: 169px; } }
+    left: 169px; }
+
+  .search-form {
+    margin-bottom: 20px; } }
 @media (min-width: 1000px) and (max-width: 1249px) {
   .form-field-wrapper.flex {
-    display: block; }
+    display: block;
+    margin-left: 0; }
 
   .container {
     margin: 0 50px; }
@@ -449,7 +460,10 @@ input {
     left: 309px; }
 
   .about-us-form__foto {
-    width: 100%; } }
+    width: 100%; }
+
+  .search-form {
+    margin-bottom: 20px; } }
 @media (min-width: 1250px) and (max-width: 1450px) {
   .title-name {
     margin-top: 100px;
