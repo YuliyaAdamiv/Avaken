@@ -38,7 +38,7 @@
     </header>
     <div class="content">
         <div class="container">
-            <section class="title">
+            <!-- <section class="title">
                 <div class="swiper column">
                     <div class="swiper-wrapper">
 
@@ -56,6 +56,28 @@
                         <img class="swiper-image" src="img/Arrows.png">
                     </div>
 
+                </div> -->
+            <section class="title">
+                <div class="swiper column">
+                    <div id="slider">
+                        <a class="control_next">></a>
+                        <a class="control_prev">
+                            <</a>
+                                <ul>
+                                    <li>
+                                        <div class="swiper-slide"><img src="img/photo.png" alt="office"></div>
+                                    </li>
+                                    <li>
+                                        <div class="swiper-slide"><img src="img/photo.png" alt="office"></div>
+                                    </li>
+                                    <li>
+                                        <div class="swiper-slide"><img src="img/photo.png" alt="office"></div>
+                                    </li>
+                                    <li>
+                                        <div class="swiper-slide"><img src="img/photo.png" alt="office"></div>
+                                    </li>
+                                </ul>
+                    </div>
                 </div>
                 <div class="column">
                     <h1 class="title-name">Let’s build something great!</h1>
@@ -140,18 +162,18 @@
                             </div>
                             <div class="form-field-wrapper">
                                 <label for="phone">Phone</label>
-                                <input type="text" id="phone" />
+                                <input type="text" id="phone" onkeydown="validatePhone(this);" />
                             </div>
                         </div>
                         <div class="form-field-wrapper">
                             <label for="email">Email Address</label>
-                            <input type="text" id="email" />
+                            <input type="text" id="email" onkeydown="validateEmail(this)" />
                         </div>
                         <div class="form-field-wrapper">
                             <label for="message">Message</label>
                             <textarea type="text" id="message"></textarea>
                         </div>
-                        <button class="search-form__button">SEND MESSAGE<i class="material-icons  arrow">
+                        <button id="send" class="search-form__button" disabled>SEND MESSAGE<i class="material-icons  arrow">
                     arrow_forward
                     </i></button>
                 </div>
