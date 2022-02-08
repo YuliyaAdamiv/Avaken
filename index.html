@@ -38,25 +38,6 @@
     </header>
     <div class="content">
         <div class="container">
-            <!-- <section class="title">
-                <div class="swiper column">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide"><img src="img/photo.png" srcset="./img/photo_320.png 320w, ./img/photo_320.png 480w, ./img/photo.png 640w, ./img/photo.png 800w, ./img/photo.png 1000w, ./img/photo.png 1200w, ./img/photo.png 1400w" sizes="(max-width: 320px) 280px,
-                            (max-width: 480px) 440px, (max-width: 840px) 800px, (max-width: 1040px) 1000px, (max-width: 1240px) 1200px" alt="office"></div>
-                        <div class="swiper-slide"><img src="img/photo.png" srcset="./img/photo_320.png 320w, ./img/photo_320.png 480w, ./img/photo.png 640w, ./img/photo.png 800w, ./img/photo.png 1000w, ./img/photo.png 1200w, ./img/photo.png 1400w" sizes="(max-width: 320px) 280px,
-                                (max-width: 480px) 440px, (max-width: 840px) 800px, (max-width: 1040px) 1000px, (max-width: 1240px) 1200px" alt="office"></div>
-                        <div class="swiper-slide"><img src="img/photo.png" srcset="./img/photo_320.png 320w, ./img/photo_320.png 480w, ./img/photo.png 640w, ./img/photo.png 800w, ./img/photo.png 1000w, ./img/photo.png 1200w, ./img/photo.png 1400w" sizes="(max-width: 320px) 280px,
-                                    (max-width: 480px) 440px, (max-width: 840px) 800px, (max-width: 1040px) 1000px, (max-width: 1240px) 1200px" alt="office"></div>
-
-                    </div>
-                    <div class="swiper-buttons">
-                        <button class="swiper-button-prev"></button>
-                        <button class="swiper-button-next"></button>
-                        <img class="swiper-image" src="img/Arrows.png">
-                    </div>
-
-                </div> -->
             <section class="title">
                 <div class="swiper column">
                     <div id="slider">
@@ -149,7 +130,7 @@
                 </div>
                 <div class="about-us-form">
                     <img class="about-us-form__foto" src="img/office.png">
-                    <form class="search-form">
+                    <form class="search-form" id="myform" action="javascript:void(0)">
                         <div>
                             <h3 class="search-form__title">Write Me.</h3>
                             <p class="search-form__text">Sit et vulputate posuere id diam ac eget lacinia enim. Id congue sapien libero sed. Aliquet amet eget placerat facilisis leo, sit consequat.</p>
@@ -161,21 +142,23 @@
                                 <input type="text" id="name" />
                             </div>
                             <div class="form-field-wrapper">
-                                <label for="phone">Phone</label>
-                                <input type="text" id="phone" onkeydown="validatePhone(this);" />
+                                <label for="myform_phone">Phone</label>
+                                <input type="tel" id="myform_phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
                             </div>
                         </div>
                         <div class="form-field-wrapper">
                             <label for="email">Email Address</label>
-                            <input type="text" id="email" onkeydown="validateEmail(this)" />
+                            <input type="email" placeholder="me@example.com" required id="email" />
                         </div>
                         <div class="form-field-wrapper">
                             <label for="message">Message</label>
                             <textarea type="text" id="message"></textarea>
                         </div>
-                        <button id="send" class="search-form__button" disabled>SEND MESSAGE<i class="material-icons  arrow">
+                        <div>
+                            <button id="send" type="submit" class="search-form__button">SEND MESSAGE<i class="material-icons  arrow">
                     arrow_forward
                     </i></button>
+                        </div>
                 </div>
                 </form>
         </div>

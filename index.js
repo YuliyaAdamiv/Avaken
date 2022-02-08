@@ -41,15 +41,6 @@ $(window).on("scroll", function() {
     }
 });
 
-function validateEmail(e) {
-    let reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-    document.getElementById('send').disabled = !reg.test(e.value);
-}
-
-function validatePhone(e) {
-    let f = "9001234567".match(/^\d{10}$/g);
-    document.getElementById('send').disabled = !f.test(e.value);
-}
 
 jQuery(document).ready(function($) {
 
